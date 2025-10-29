@@ -13,7 +13,7 @@ Before running the tests, make sure you have:
 npm install -g testcafe
 
 **Running the Test**
-- Open the project folder in VS Code (or your preferred terminal).
+- Open the project folder in VS Code (or your preferred terminal) and import homepage_test_v2.js
 - Run the following command to execute the test in Chrome:
   npx testcafe chrome homepage_test_v2.js --skip-js-errors --skip-uncaught-errors --screenshots screenshots --assertion-timeout 8000 --page-load-timeout 10000
 - Wait for the run to complete — the terminal will display each test step and its PASS/FAIL status.
